@@ -512,12 +512,12 @@
   border-bottom: 1px dotted
 }
 
-.NewsFeatured_newsListItem__o8u3f a[href*="//"]:after {
+/* .NewsFeatured_newsListItem__o8u3f a[href*="//"]:after {
   color: #fff;
   content: "\f08e";
   font-family: "Font Awesome 6 Pro", "Font Awesome 6 Brands";
   margin-left: 8px
-}
+} */
 
 @media (max-width:900px) {
   .NewsFeatured_newsList__2lOPn {
