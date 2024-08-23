@@ -34,7 +34,7 @@ function nunjucks() {
     .src(pages + '/**/*.+(html|njk)')
     .pipe(
       gulpNunjucksRender({
-        path: templates,
+        path: [templates, pages],
         lstripBlocks: true,
         trimBlocks: true,
       })
