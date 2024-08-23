@@ -1,10 +1,27 @@
 {
-  "name": "vncph",
+  "name": "static-playground",
   "version": "1.0.0",
+  "description": "Minimal bootstrap for static site prototyping with hot-reload",
   "main": "index.js",
-  "author": "Tri Truong <tri.itvn@gmail.com>",
+  "scripts": {
+    "start": "node_modules/gulp/bin/gulp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianmg/static-playground.git"
+  },
+  "author": "Adrian Mato (https://adrianmato.com)",
   "license": "MIT",
-  "dependencies": {
-    "live-server": "^1.2.2"
+  "bugs": {
+    "url": "https://github.com/adrianmg/static-playground/issues"
+  },
+  "homepage": "https://github.com/adrianmg/static-playground#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.5",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^5.0.0",
+    "sass": "^1.37.5"
   }
 }
