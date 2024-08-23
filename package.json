@@ -1,0 +1,10 @@
+{
+  "name": "vncph",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Tri Truong <tri.itvn@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}
