@@ -1,0 +1,1 @@
+export { VideoSpotLight } from './VideoSpotLight';
