@@ -1,93 +1,18 @@
-<section class="PhotoTabs_container__1Yx2P single-col-inner">
-  <div class="PhotoTabs_imageContainer__AkaTF" data-alignment="right"
-    style="background-image: url('https://i.imgur.com/hSMTD8O.jpeg');">
+<section class="PhotoTabs_container__1Yx2P single-col-inner" data-accentbar-alignment="{{ photoTabs.accentbarAlignment }}">
+  <div class="PhotoTabs_imageContainer__AkaTF" data-alignment="{{ photoTabs.photoAlignment }}"
+    style="background-image: url('{{ photoTabs.imgUrl }}');">
     <div class="PhotoTabs_tabDescription__1ZJIu"></div>
   </div>
   <div class="PhotoTabs_tabContainer__29YJa" data-alignment="bottom-right">
     <h3 class="PhotoTabs_title__1P9Pd">
-      Lorem ipsum dolor sit amet
+      {{ photoTabs.title }}
     </h3>
     <p data-size="small" class="PhotoTabs_description__122tl">
-      lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+      {{ photoTabs.description }}
     </p>
 
-    {% set items = [
-      {
-        title: 'Trung tâm Pali học'
-      },
-      {
-        title: 'Trung tâm Phật học Sanskrit'
-      },
-      {
-        title: 'Trung tâm nghiên cứu Phật giáo Việt Nam'
-      },
-      {
-        title: 'Trung tâm nghiên cứu Nữ giới Phật giáo'
-      }]%}
-
-      {% include "./ctaLinks.html" %}
+    {% set items = photoTabs.items %}
+    {% include "./ctaLinks.html" %}
     
-  </div>
-</section>
-
-<section class="PhotoTabs_container__1Yx2P single-col-inner" data-accentbar-alignment="right">
-  <div class="PhotoTabs_imageContainer__AkaTF" data-alignment="left"
-    style="background-image: url('https://i.imgur.com/5VzpW19.jpeg');">
-    <div class="PhotoTabs_tabDescription__1ZJIu"></div>
-  </div>
-  <div class="PhotoTabs_tabContainer__29YJa" data-alignment="bottom-right">
-    <h3 class="PhotoTabs_title__1P9Pd">
-      Lorem ipsum dolor sit amet
-    </h3>
-    <p data-size="small" class="PhotoTabs_description__122tl">
-      lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    </p>
-    
-      {% set items = [
-        {
-          title: 'Trung tâm nghiên cứu Phật giáo Hán truyền'
-        },
-        {
-          title: 'Trung tâm nghiên cứu và ứng dụng thiền học Nam truyền'
-        },
-        {
-          title: 'Trung tâm nghiên cứu và ứng dụng thiền học Bắc truyền'
-        },
-        {
-          title: 'Trung tâm nghiên cứu Văn học Phật giáo Việt Nam'
-        }]%}
-  
-        {% include "./ctaLinks.html" %}
-  </div>
-</section>
-
-<section class="PhotoTabs_container__1Yx2P single-col-inner">
-  <div class="PhotoTabs_imageContainer__AkaTF" data-alignment="right"
-    style="background-image: url('https://i.imgur.com/RdyKUc8.jpeg');">
-    <div class="PhotoTabs_tabDescription__1ZJIu"></div>
-  </div>
-  <div class="PhotoTabs_tabContainer__29YJa" data-alignment="bottom-right">
-    <h3 class="PhotoTabs_title__1P9Pd">
-      Lorem ipsum dolor sit amet
-    </h3>
-    <p data-size="small" class="PhotoTabs_description__122tl">
-      lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    </p>
-
-    {% set items = [
-      {
-        title: 'Trung tâm phiên dịch Hán Nôm Huệ Quang'
-      },
-      {
-        title: 'Trung tâm nghiên cứu tôn giáo'
-      },
-      {
-        title: 'Trung tâm Phiên dịch Anh-Việt Phật học'
-      },
-      {
-        title: 'Trung tâm nghiên cứu và dịch thuật'
-      }]%}
-
-      {% include "./ctaLinks.html" %}
   </div>
 </section>
