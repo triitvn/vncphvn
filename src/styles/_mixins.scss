@@ -1,3 +1,5 @@
+// Source: https://fonts.google.com/icons
+
 @mixin icon {
   font-family: 'Material Symbols Sharp'
 }
@@ -20,6 +22,21 @@
 @mixin icon-arrow-forward-ios {
   @include icon;
   content: '\e5e1';
+}
+
+@mixin icon-location-on {
+  @include icon;
+  content: '\e0c8';
+}
+
+@mixin icon-mail {
+  @include icon;
+  content: '\e158';
+}
+
+@mixin icon-call {
+  @include icon;
+  content: '\e0b0';
 }
 
 @mixin font-family-primary {
