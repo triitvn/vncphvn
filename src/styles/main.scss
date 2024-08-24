@@ -30,8 +30,7 @@ p,
 ul {
   margin: 0;
   padding: 0;
-  // font-family: "GothamBook", "GothamBookItalic", sans-serif
-  font-family: "Montserrat", sans-serif !important;
+  @include font-family-primary;
 }
 
 body {
@@ -63,7 +62,7 @@ button {
 
 b,
 strong {
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   word-break: break-word
 }
 
@@ -102,8 +101,7 @@ input[type=search]::-webkit-search-results-decoration {
 h1,
 h2,
 h3 {
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
-  font-weight: 500
+  font-weight: 400
 }
 
 .sans-head-1,
@@ -172,10 +170,6 @@ h3 {
   line-height: 40px
 }
 
-.typography {
-  font-family: "GothamBook", "GothamBookItalic", sans-serif
-}
-
 .typography-body {
   font-size: 16px;
   line-height: 28px
@@ -188,7 +182,7 @@ h3 {
 
 .typography-subtitle {
   font-size: 16px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500;
   line-height: 28px
 }
@@ -234,8 +228,7 @@ p+p {
 a {
   border-bottom: 1px dotted;
   font-size: 16px;
-  font-family: "GothamBook", "GothamBookItalic", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 28px;
   text-decoration: none
 }
@@ -327,7 +320,7 @@ a[data-size=large] {
 
 a[data-size=small] {
   font-size: 14px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500;
   line-height: 14px;
   letter-spacing: .44px
@@ -362,7 +355,7 @@ a[data-size=small]:after {
 }
 
 .richtext {
-  font-family: "GothamBook", "GothamBookItalic", sans-serif;
+  
   margin-top: 48px;
   margin-bottom: 48px
 }
@@ -442,7 +435,7 @@ a[data-size=small]:after {
 
 .richtext dl dt {
   font-size: 18px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500;
   line-height: 32px;
   letter-spacing: normal;
@@ -474,7 +467,7 @@ a[data-size=small]:after {
 }
 
 .sub-page-h3 {
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   font-weight: 700
 }
 
@@ -838,7 +831,7 @@ main {
 }
 
 .linkList-link {
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500;
   letter-spacing: .4px;
   line-height: 18px
@@ -1139,7 +1132,7 @@ div.CoveoForSitecoreContext {
 
 .CoveoSearchInterface .coveo-main-section .coveo-search-section .CoveoSearchbox .magic-box .magic-box-input>input {
   color: #404040;
-  font-family: "GothamBook", "GothamBookItalic", sans-serif;
+  
   font-size: 24px;
   padding: 3px 24px 3px 10px;
   border: 3px solid #d9d9d9
@@ -1207,7 +1200,7 @@ div.CoveoForSitecoreContext {
 .CoveoSearchInterface .coveo-main-section .coveo-tab-section .CoveoTab.coveo-selected p {
   border: none;
   color: maroon;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
@@ -1240,7 +1233,7 @@ div.CoveoForSitecoreContext {
 .CoveoSearchInterface .coveo-main-section .coveo-facet-column .CoveoFacetRange .coveo-facet-header-title {
   color: #4d4d4d;
   font-size: 16px;
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   font-weight: 700;
   line-height: 18px
 }
@@ -1264,7 +1257,7 @@ div.CoveoForSitecoreContext {
 
 .CoveoSearchInterface .coveo-main-section .coveo-facet-column .CoveoFacet .coveo-facet-values .coveo-facet-value.coveo-selected,
 .CoveoSearchInterface .coveo-main-section .coveo-facet-column .CoveoFacetRange .coveo-facet-values .coveo-facet-value.coveo-selected {
-  font-family: "GothamBook", "GothamBookItalic", sans-serif;
+  
   font-weight: 400
 }
 
@@ -1428,7 +1421,7 @@ div.CoveoForSitecoreContext {
 }
 
 .CoveoSearchInterface .coveo-main-section .coveo-results-column .CoveoResultList .coveo-list-layout.CoveoResult .directoryitem-title {
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   font-weight: 700;
   margin-bottom: 8px
 }
@@ -1442,7 +1435,7 @@ div.CoveoForSitecoreContext {
 }
 
 .CoveoSearchInterface .coveo-main-section .coveo-results-column .CoveoResultList .coveo-list-layout.CoveoResult .positiondata [class*=positiondata-] span {
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
@@ -1503,7 +1496,7 @@ div.CoveoForSitecoreContext {
   border: none;
   flex-shrink: 0;
   font-size: 14px;
-  font-family: "GothamBook", "GothamBookItalic", sans-serif;
+  
   font-weight: 400;
   margin-left: 24px;
   text-transform: none
@@ -1582,12 +1575,12 @@ div.CoveoForSitecoreContext {
 
 .CoveoSearchInterface .coveo-main-section .coveo-results-column .CoveoResultList .coveo-list-layout.CoveoResult .CoveoResultLink,
 .CoveoSearchInterface .coveo-main-section .coveo-results-column .CoveoResultList .coveo-list-layout.CoveoResult .CoveoResultLink .coveo-highlight {
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
 .CoveoSearchInterface .coveo-main-section .coveo-results-column .CoveoResultList .coveo-list-layout.CoveoResult .CoveoResultLink.subtitle {
-  font-family: "GothamBook", "GothamBookItalic", sans-serif;
+  
   font-weight: 400;
   line-height: 20px
 }
@@ -1623,7 +1616,7 @@ div.CoveoForSitecoreContext {
 .CoveoSearchInterface .coveo-main-section .coveo-results-column .CoveoResultList .coveo-list-layout.CoveoResult .CoveoFieldValue.tool-title {
   color: maroon;
   font-size: 18px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
@@ -1671,7 +1664,7 @@ div.CoveoForSitecoreContext {
 .CoveoSearchInterface .coveo-main-section .CoveoPager .coveo-pager-list-item.coveo-active *,
 .CoveoSearchInterface .coveo-main-section .CoveoPager .coveo-pager-list-item:hover * {
   color: maroon;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
@@ -1683,7 +1676,7 @@ div.CoveoForSitecoreContext {
 .CoveoSearchInterface .coveo-main-section .CoveoPager .coveo-pager-list-item.coveo-active {
   border-bottom: 2px solid maroon;
   border-radius: 0;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
@@ -2110,7 +2103,7 @@ td {
 caption {
   padding: 10px 0;
   font-size: 16px;
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   font-weight: 700
 }
 
@@ -2137,7 +2130,7 @@ caption {
   font-size: 16px;
   background: #4d4d4d;
   color: #fff;
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   font-weight: 700
 }
 
@@ -2199,7 +2192,7 @@ caption {
   color: #4d4d4d;
   font-size: 14px;
   line-height: 14px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
@@ -2229,7 +2222,7 @@ caption {
   font-size: 16px;
   background: #4d4d4d;
   color: #fff;
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   font-weight: 700
 }
 
@@ -2360,7 +2353,7 @@ caption {
   background: #d9d9d9;
   font-size: 16px;
   text-transform: capitalize;
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   font-weight: 700;
   line-height: 20px
 }
@@ -2398,7 +2391,7 @@ caption {
   background-color: #fff;
   font-size: 14px;
   line-height: 14px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
@@ -2424,7 +2417,7 @@ caption {
   color: #4d4d4d;
   font-size: 14px;
   line-height: 14px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 
@@ -2490,7 +2483,7 @@ caption {
 .UChicagoMaroon tr.UChicagoMaroonTableFooterRow {
   background-color: #fff;
   color: #4d4d4d;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500;
   font-size: 14px;
   line-height: 14px
@@ -2523,7 +2516,7 @@ caption {
   font-size: 16px;
   background: maroon;
   color: #fff;
-  font-family: "GothamBold", "GothamBoldItalic", sans-serif;
+  
   font-weight: 700
 }
 
@@ -2580,7 +2573,7 @@ caption {
   background-color: #fff;
   font-size: 14px;
   padding: 12.5px 16.5px 12.5px 15px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500
 }
 

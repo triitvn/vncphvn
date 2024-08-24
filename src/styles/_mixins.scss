@@ -21,3 +21,11 @@
   @include icon;
   content: '\e5e1';
 }
+
+@mixin font-family-primary {
+  font-family: "Montserrat", sans-serif;
+}
+
+@mixin font-family-secondary {
+  font-family: "EB Garamond", serif;
+}

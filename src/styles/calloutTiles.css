@@ -18,7 +18,6 @@
   background: transparent;
   border: 1px solid !important;
   display: block;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   position: relative;
@@ -676,7 +675,6 @@ a.button {
 
 .CalloutTiles_morelinkcontainer__2Dx-_ a {
   font-size: 14px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
   font-weight: 500;
   line-height: 14px;
   letter-spacing: .44px;
@@ -807,7 +805,6 @@ a.button {
 
 .CalloutTiles_title__1prJb {
   font-size: 18px;
-  font-family: "GothamBook", "GothamBookItalic", sans-serif;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 24px;
@@ -835,7 +832,6 @@ a.button {
 
 .CalloutTiles_ctaContainer__3-b8l .CalloutTiles_cta__eo_HC {
   font-size: 16px;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
   font-weight: 500;
   letter-spacing: 1.5px;
   line-height: 24px;

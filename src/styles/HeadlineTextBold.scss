@@ -1,8 +1,10 @@
+@import 'mixins.scss';
+
 .spanButton {
   background: transparent;
   border: 1px solid !important;
   display: block;
-  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  
   font-weight: 500;
   text-transform: uppercase;
   position: relative;
