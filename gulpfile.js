@@ -103,6 +103,10 @@ function clean() {
 }
 
 // Export tasks
+exports.buildRelease = gulp.series(
+  clean,
+  gulp.parallel(sass, typescript, copyFonts, nunjucks),
+);
 exports.build = gulp.series(
   clean,
   gulp.parallel(sass, typescript, copyFonts, nunjucks),

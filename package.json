@@ -4,7 +4,8 @@
   "description": "Minimal bootstrap for static site prototyping with hot-reload",
   "main": "index.js",
   "scripts": {
-    "start": "node_modules/gulp/bin/gulp.js"
+    "start": "node_modules/gulp/bin/gulp.js",
+    "build": "node_modules/gulp/bin/gulp.js buildRelease"
   },
   "repository": {
     "type": "git",
