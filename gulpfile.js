@@ -108,7 +108,7 @@ exports.buildRelease = gulp.series(
   gulp.parallel(sass, typescript, copyFonts, nunjucks),
 );
 exports.build = gulp.series(
-  // clean,
+  clean,
   gulp.parallel(sass, typescript, copyFonts, nunjucks),
   browserSync
 );
