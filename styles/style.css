@@ -2573,7 +2573,7 @@ caption {
 }
 
 .App__ContentContainer {
-  margin-top: 70px;
+  margin-top: 100px;
 }
 
 /*# sourceMappingURL=main.719bea4e.chunk.css.map */
@@ -3613,6 +3613,7 @@ a.button {
   position: relative;
   margin: 0 auto;
   max-width: 1488px;
+  min-height: 60px;
 }
 
 .EduNavigation_rightNav__J4S-4 .EduNavigation_navListItem__vencQ:last-child .EduNavigation_l1Link__2GKvH span[class*=linkText]:hover {
@@ -5352,3 +5353,239 @@ a.button {
     padding-top: 0;
   }
 }
+.VideoSpotlight_videoSpotlight__DrkOc {
+  line-height: 0;
+  overflow: hidden;
+  position: relative;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc.VideoSpotlight_heightAdjusted__2quNh {
+  width: 100%;
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc.VideoSpotlight_heightAdjusted__2quNh .VideoSpotlight_backgroundVideo__tZdZO {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc.VideoSpotlight_heightAdjusted__2quNh .VideoSpotlight_backgroundVideoSafari__1ddX2 {
+  width: 100%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc .VideoSpotlight_backgroundVideo__tZdZO,
+.VideoSpotlight_videoSpotlight__DrkOc .VideoSpotlight_backgroundVideoSafari__1ddX2 {
+  height: auto;
+  width: 100%;
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc #VideoSpotlight_overlay__ZGvPB {
+  position: absolute;
+  top: 42%;
+  left: 12%;
+  right: 17%;
+  color: #fff;
+  z-index: 2;
+  display: flex;
+  text-align: center;
+  white-space: nowrap;
+  justify-content: center;
+  font-size: 4em;
+  font-weight: 700;
+  margin: 10px auto 20px;
+  letter-spacing: 2px;
+  opacity: 1;
+  align-items: center;
+  display: block;
+  -webkit-animation: VideoSpotlight_fadeIn__3JAia 1s;
+  animation: VideoSpotlight_fadeIn__3JAia 1s;
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc #VideoSpotlight_overlay__ZGvPB .VideoSpotlight_fade__38R5w {
+  -webkit-animation: VideoSpotlight_fadeOut__12iVU 1s;
+  animation: VideoSpotlight_fadeOut__12iVU 1s;
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc .VideoSpotlight_btnPlayPause__qHPP3 {
+  top: 20px;
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 20px;
+  border: 1px solid transparent;
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc .VideoSpotlight_btnPlayPause__qHPP3:after,
+.VideoSpotlight_videoSpotlight__DrkOc .VideoSpotlight_btnPlayPause__qHPP3:before {
+  color: #fff;
+  cursor: pointer;
+  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Brands";
+  font-size: 18px;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  z-index: 2;
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc .VideoSpotlight_btnPlayPause__qHPP3:after {
+  content: "";
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc .VideoSpotlight_btnPlayPause__qHPP3:before {
+  content: "";
+}
+
+.VideoSpotlight_videoSpotlight__DrkOc:not([class*=isPlaying]) .VideoSpotlight_btnPlayPause__qHPP3:before,
+.VideoSpotlight_videoSpotlight__DrkOc[class*=isPlaying] .VideoSpotlight_btnPlayPause__qHPP3:after {
+  opacity: 1;
+}
+
+@media (min-width: 1366px) {
+  .VideoSpotlight_videoSpotlight__DrkOc.VideoSpotlight_heightAdjusted__2quNh {
+    min-height: 610px;
+  }
+
+  .VideoSpotlight_videoSpotlight__DrkOc #VideoSpotlight_overlay__ZGvPB {
+    font-size: 4em;
+  }
+}
+@media (max-width: 1100px) {
+  .VideoSpotlight_videoSpotlight__DrkOc #VideoSpotlight_overlay__ZGvPB {
+    font-size: 3.5em;
+  }
+}
+@media (max-width: 900px) {
+  .VideoSpotlight_videoSpotlight__DrkOc.VideoSpotlight_heightAdjusted__2quNh {
+    max-height: 390px;
+  }
+
+  .VideoSpotlight_videoSpotlight__DrkOc #VideoSpotlight_overlay__ZGvPB {
+    font-size: 2.5em;
+  }
+}
+@media (max-width: 700px) {
+  .VideoSpotlight_videoSpotlight__DrkOc.VideoSpotlight_heightAdjusted__2quNh {
+    max-height: 285px;
+  }
+
+  .VideoSpotlight_videoSpotlight__DrkOc #VideoSpotlight_overlay__ZGvPB {
+    font-size: 1.7em;
+  }
+}
+@media (max-width: 540px) {
+  .VideoSpotlight_videoSpotlight__DrkOc.VideoSpotlight_heightAdjusted__2quNh {
+    max-height: 185px;
+  }
+
+  .VideoSpotlight_videoSpotlight__DrkOc #VideoSpotlight_overlay__ZGvPB {
+    font-size: 1.1em;
+    left: 10%;
+  }
+}
+@media (max-width: 280px) {
+  .VideoSpotlight_videoSpotlight__DrkOc.VideoSpotlight_heightAdjusted__2quNh {
+    max-height: 185px;
+  }
+
+  .VideoSpotlight_videoSpotlight__DrkOc #VideoSpotlight_overlay__ZGvPB {
+    font-size: 0.7em;
+    left: 10%;
+  }
+}
+@-webkit-keyframes VideoSpotlight_fadeIn__3JAia {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes VideoSpotlight_fadeOut__12iVU {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes VideoSpotlight_fadeOut__12iVU {
+  0% {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.VideoSpotlight_spotlightImg__3PnQn {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition-duration: 1s;
+}
+
+.VideoSpotlight_fadeInImage__29oOX {
+  -webkit-animation: VideoSpotlight_fadeIn__3JAia 1s;
+  animation: VideoSpotlight_fadeIn__3JAia 1s;
+}
+
+@keyframes VideoSpotlight_fadeIn__3JAia {
+  0% {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 3000px) {
+  .VideoSpotlight_spotlightImg__3PnQn {
+    min-height: 1080px;
+  }
+}
+@media screen and (max-width: 3000px) {
+  .VideoSpotlight_spotlightImg__3PnQn {
+    min-height: 980px;
+  }
+}
+@media screen and (max-width: 2500px) {
+  .VideoSpotlight_spotlightImg__3PnQn {
+    min-height: 780px;
+  }
+}
+@media screen and (max-width: 1950px) {
+  .VideoSpotlight_spotlightImg__3PnQn {
+    min-height: 580px;
+  }
+}
+@media screen and (max-width: 1449px) {
+  .VideoSpotlight_spotlightImg__3PnQn {
+    min-height: 484px;
+  }
+}
+.VideoSpotlight_mediumGrayTheme__h09-z {
+  text-shadow: 0 1px 11px #555, 0 1px 20px #555, 0 1px 20px #555;
+}
+
+.VideoSpotlight_darkGrayTheme__29Pdx {
+  text-shadow: 0 1px 20px #333, 0 1px 20px #333, 0 1px 20px #333;
+}
+
+.VideoSpotlight_darkestGrayTheme__35snc {
+  text-shadow: 0 1px 11px #111, 0 1px 20px #111, 0 1px 20px #111;
+}
+
+/*# sourceMappingURL=VideoSpotlight.a62fdaa8.chunk.css.map */
