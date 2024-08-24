@@ -1,0 +1,18 @@
+@mixin icon {
+  font-family: 'Material Symbols Sharp'
+}
+
+@mixin icon-menu {
+  @include icon;
+  content: '\e5d2';
+}
+
+@mixin icon-close {
+  @include icon;
+  content: '\e5cd';
+}
+
+@mixin icon-chevron-right {
+  @include icon;
+  content: '\e5cc';
+}

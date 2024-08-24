@@ -1,3 +1,5 @@
+@import 'mixins.scss';
+
 .EduBrandBar_innerContainer__2CdVQ,
 .EduBrandBar_linkContainer__1PVzB,
 .EduBrandBar_navList__bejKa {
@@ -1447,10 +1449,9 @@ a.button {
   .EduNavigation_navListItem__vencQ .EduNavigation_l1Link__2GKvH:after,
   .EduNavigation_navListItem__vencQ .EduNavigation_l1LinkDropdown__EcW2Y:after,
   .EduNavigation_navListItem__vencQ .EduNavigation_linkHighlight__q5cn-:after {
-    content: "\f054";
+    @include icon-chevron-right;
     cursor: pointer;
-    font-size: 12px;
-    font-family: "Font Awesome 6 Pro", "Font Awesome 6 Brands";
+    font-size: 14px;
     margin-left: 6px
   }
 
@@ -1695,7 +1696,7 @@ a.button {
 
 @media (max-width:900px) {
   header[data-mobilenavisopen=true] .EduHeader_mobileNavToggle__2kx94:after {
-    content: "\f00d"
+    @include icon-close;
   }
 
   header[data-mobilenavisopen=true] .EduHeader_headerNavigation__3Li1o {
@@ -1738,8 +1739,7 @@ a.button {
 
   .EduHeader_mobileNavToggle__2kx94:after {
     color: #fff;
-    content: "\f0c9";
-    font-family: "Font Awesome 6 Pro", "Font Awesome 6 Brands"
+    @include icon-menu;
   }
 }
 
