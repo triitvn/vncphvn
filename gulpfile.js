@@ -1,6 +1,7 @@
 // Dependencies
 const gulp = require('gulp');
 const gulpSass = require('gulp-sass')(require('sass'));
+const ts = require('gulp-typescript');
 const gulpBrowserSync = require('browser-sync').create();
 const gulpNunjucksRender = require('gulp-nunjucks-render');
 const del = require('del');
@@ -10,9 +11,11 @@ const pages = 'src/pages';
 const templates = 'src/templates';
 const css = 'src/styles';
 const fonts = 'src/styles/fonts';
+const scripts = 'src/scripts';
 const output = 'dist';
 const cssOutput = 'dist/styles';
 const fontsOutput = 'dist/styles/fonts';
+const scriptOutput = 'dist/js';
 
 // CSS sass
 function sass() {
@@ -26,6 +29,22 @@ function sass() {
 // CSS Fonts
 async function copyFonts() {
   return gulp.src(fonts + '/**/*').pipe(gulp.dest(fontsOutput));
+}
+
+// TypeScript
+function typescript() {
+  return gulp
+    .src(scripts + '/*.ts')
+    .pipe(ts({
+      noImplicitAny: true,
+      outFile: 'main.js',
+      "compilerOptions": {
+        // ... other options
+        "module": "system" // or "system"
+      }
+    }))
+    .pipe(gulp.dest(scriptOutput))
+    .pipe(gulpBrowserSync.stream());
 }
 
 // Templates nunjucks
@@ -61,6 +80,12 @@ function watchTemplates() {
     .watch(templates, { ignoreInitial: false }, nunjucks)
     .on('change', gulpBrowserSync.reload);
 }
+// Watch for JS changes
+function watchScripts() {
+  return gulp
+    .watch(scripts, { ignoreInitial: false }, typescript)
+    .on('change', gulpBrowserSync.reload);
+}
 
 // Static Server
 function browserSync() {
@@ -80,10 +105,10 @@ function clean() {
 // Export tasks
 exports.build = gulp.series(
   clean,
-  gulp.parallel(sass, copyFonts, nunjucks),
+  gulp.parallel(sass, typescript, copyFonts, nunjucks),
   browserSync
 );
-exports.watch = gulp.parallel(watchCSS, watchPages, watchTemplates);
+exports.watch = gulp.parallel(watchCSS, watchScripts, watchPages, watchTemplates);
 
 // Run
 exports.default = gulp.parallel(exports.build, exports.watch);
