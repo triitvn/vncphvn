@@ -1046,7 +1046,8 @@ a.button {
   justify-content: center;
   position: relative;
   margin: 0 auto;
-  max-width: 1488px
+  max-width: 1488px;
+  min-height: 60px;
 }
 
 .EduNavigation_rightNav__J4S-4 .EduNavigation_navListItem__vencQ:last-child .EduNavigation_l1Link__2GKvH span[class*=linkText]:hover {
