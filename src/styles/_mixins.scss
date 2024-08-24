@@ -16,3 +16,8 @@
   @include icon;
   content: '\e5cc';
 }
+
+@mixin icon-arrow-forward-ios {
+  @include icon;
+  content: '\e5e1';
+}

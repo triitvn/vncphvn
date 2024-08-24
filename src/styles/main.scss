@@ -1,3 +1,5 @@
+@import 'mixins.scss';
+
 *,
 :after,
 :not(.fa):before {
@@ -276,8 +278,7 @@ p[data-chevron=true]:hover [class=linkText] {
 .CoveoSearchInterface .coveo-main-section .coveo-results-column .CoveoResultList .coveo-list-layout.CoveoResult .CoveoResultLink:after,
 a[data-chevron=true]:after,
 p[data-chevron=true]:after {
-  content: "\f054";
-  font-family: "Font Awesome 6 Pro", "Font Awesome 6 Brands";
+  @include icon-arrow-forward-ios;
   font-size: 12px;
   margin-left: 8px;
   position: static
