@@ -8,9 +8,11 @@
 
 {% block content %}
 
-{% include "./home/cacBoKinh.html" %}
-{% include "newsFeatured/index.html" %}
-{% include "./home/kinhLuatLuan.html" %}
-{% include "photoTabs/index.html" %}
+<section class="single-col-wide">
+  {% include "./home/cacBoKinh.html" %}
+  {% include "newsFeatured/index.html" %}
+  {% include "./home/kinhLuatLuan.html" %}
+  {% include "photoTabs/index.html" %}
+</section>
 
 {% endblock %}
