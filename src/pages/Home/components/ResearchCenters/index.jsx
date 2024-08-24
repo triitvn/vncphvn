@@ -1,0 +1,1 @@
+export { ResearchCenters } from './ResearchCenters';
