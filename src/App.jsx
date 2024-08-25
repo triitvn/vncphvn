@@ -7,11 +7,11 @@ import { Home } from './pages/Home';
 function App() {
 
   return (
-    <>
+    <div style={{ paddingTop: '100px' }}>
       <Header />
       <Home />
       <Footer />
-    </>
+    </div>
   )
 }
 

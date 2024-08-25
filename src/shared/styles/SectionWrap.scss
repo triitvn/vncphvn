@@ -1,0 +1,175 @@
+[class*=CalloutBannerFullwidth_container]+.SectionWrap_container__2Hi9n,
+[class*=CalloutTiles_container]+.SectionWrap_container__2Hi9n {
+  margin-top: -48px
+}
+
+.SectionWrap_container__2Hi9n {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: auto;
+  position: relative;
+  padding: 50px 24px
+}
+
+.SectionWrap_container__2Hi9n:before {
+  content: none
+}
+
+.SectionWrap_container__2Hi9n>:first-child {
+  margin-top: 0 !important
+}
+
+.SectionWrap_container__2Hi9n>:last-child {
+  margin-bottom: 0 !important
+}
+
+.SectionWrap_container__2Hi9n[data-alignment=center],
+.SectionWrap_container__2Hi9n[data-alignment=scale] {
+  background-position: 50%;
+  background-size: cover
+}
+
+.SectionWrap_container__2Hi9n[data-alignment=top-left] {
+  background-position: 0 0
+}
+
+.SectionWrap_container__2Hi9n[data-alignment=center-left] {
+  background-position: 0
+}
+
+.SectionWrap_container__2Hi9n[data-alignment=bottom-left] {
+  background-position: 0 100%
+}
+
+.SectionWrap_container__2Hi9n[data-alignment=top-right] {
+  background-position: 100% 0
+}
+
+.SectionWrap_container__2Hi9n[data-alignment=center-right] {
+  background-position: 100%
+}
+
+.SectionWrap_container__2Hi9n[data-alignment=bottom-right] {
+  background-position: 100% 100%
+}
+
+.SectionWrap_container__2Hi9n[data-theme=dark] {
+  background-color: #4d4d4d;
+  color: #fff
+}
+
+.SectionWrap_container__2Hi9n[data-theme=light] {
+  background-color: #f3f3f3
+}
+
+.SectionWrap_container__2Hi9n[data-theme=white] {
+  background-color: #fff
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=red]:before {
+  background-color: maroon
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=darkred]:before {
+  background-color: #670a0a
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=terracotta]:before {
+  background-color: #a9431e
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=violet]:before {
+  background-color: #59315f
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=darkviolet]:before {
+  background-color: #41273b
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=yellow]:before {
+  background-color: #f3d03e
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=lake]:before {
+  background-color: #007396
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=darkbluegrey]:before,
+.SectionWrap_container__2Hi9n[data-accentcolor=darklake]:before {
+  background-color: #002a3a
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=lightergrey]:before {
+  background-color: #f3f3f3
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=lightgrey]:before {
+  background-color: #d9d9d9
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=mediumgrey]:before {
+  background-color: #666
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=grey]:before {
+  background-color: #4d4d4d
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=black]:before {
+  background-color: #000
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=green]:before {
+  background-color: #789d4a
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=white]:before {
+  background-color: #fff
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=goldenrod]:before {
+  background-color: #eaaa00
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=forest]:before {
+  background-color: #275d38
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=terracotta]:before {
+  background-color: #de7c00
+}
+
+.SectionWrap_container__2Hi9n[data-accentcolor=ivy]:before {
+  background-color: #789d4a
+}
+
+.SectionWrap_container__2Hi9n[data-showaccentbar=true]:before {
+  content: "";
+  display: block;
+  height: 12px;
+  left: 0;
+  max-width: 465px;
+  position: absolute;
+  top: 0;
+  width: 50%
+}
+
+.SectionWrap_container__2Hi9n section[class*=NewsFeatured_container] {
+  background: none
+}
+
+.SectionWrap_container__2Hi9n section[class*=SpotlightCarousel_containerInner] {
+  padding: 24px 0
+}
+
+.SectionWrap_container__2Hi9n+section[class*=HeadlineTextBold_container__1RnDP] {
+  margin-top: 48px
+}
+
+@media screen and (max-width:700px) {
+  .SectionWrap_container__2Hi9n {
+    padding: 40px 24px
+  }
+}
+
+/*# sourceMappingURL=SectionWrap.28af54b9.chunk.css.map */
