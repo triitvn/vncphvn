@@ -1,6 +1,4 @@
-import React from 'react';
-
-export const MenuItem = ({ menuTitle, hasDropDown = false }) => {
+export const MenuItem = ({ hasDropDown, menuTitle }) => {
   return (
     <li
       className={`EduNavigation_navListItem__vencQ ${hasDropDown ? 'EduNavigation_hasDropdown__gm21j' : ''}`}

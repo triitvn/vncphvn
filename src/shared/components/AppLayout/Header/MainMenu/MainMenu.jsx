@@ -1,4 +1,3 @@
-import React from 'react';
 import { MenuItem } from './MenuItem';
 
 const MENU_ITEMS = {
@@ -29,7 +28,7 @@ const LeftMenu = () => {
 
 const RightMenu = () => {
   return (
-    <ul className="EduNavigation_navList__3UUa5 EduNavigation_rightNav__J4S">
+    <ul className="EduNavigation_navList__3UUa5 EduNavigation_rightNav__J4S-4">
       {MENU_ITEMS.right.map((item, index) => (
         <MenuItem key={index} menuTitle={item.menuTitle} hasDropDown={item.hasDropDown} />
       ))}

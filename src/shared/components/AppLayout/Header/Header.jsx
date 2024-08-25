@@ -45,45 +45,18 @@ export const Header = () => {
   }, []);
 
   return (
-    <header
-      className="EduHeader_container__1tqot"
-      id="header"
-      data-mobilenavisopen="false"
-      data-scrolldown="false"
-      style={{ top: '0px' }}
-    >
-      <a
-        className="EduHeader_logoContainer__JaiwY"
-        aria-label="Logo"
-        href="/"
-        rel="noopener"
-      >
+    <header className="EduHeader_container__1tqot " id="header" data-mobilenavisopen="false" data-scrolldown="false"
+      style={{ top: '0px' }}>
+      <a className="EduHeader_logoContainer__JaiwY" aria-label="Logo" href="/" rel="noopener">
         <span className="linkText">
-          <img
-            alt="Viện Nghiên Cứu Phật Học logo"
-            className="EduHeader_desktopLogo__1wTcL"
-            src="https://i.imgur.com/GomWFl3.png"
-          />
-          <img
-            alt="Viện Nghiên Cứu Phật Học logo"
-            className="EduHeader_mobileLogo__2czmh"
-            src="./The University of Chicago_files/logo-background-mobile.svg"
-          />
+          <img alt="Viện Nghiên Cứu Phật Học logo" className="EduHeader_desktopLogo__1wTcL" src="https://i.imgur.com/GomWFl3.png" />
+          <img alt="Viện Nghiên Cứu Phật Học logo" className="EduHeader_mobileLogo__2czmh" src="./The University of Chicago_files/logo-background-mobile.svg" />
         </span>
       </a>
-      <button
-        id="mobileTogBtn"
-        className="EduHeader_mobileNavToggle__2kx94"
-        aria-label="Show main menu"
-        aria-expanded="false"
-        onClick={ToggleMobileNav}
-      ></button>
-      {/* Include components for branchMenu and mainMenu */}
+      <button id="mobileTogBtn" className="EduHeader_mobileNavToggle__2kx94" aria-label="Show main menu" aria-expanded="false"></button>
       <BranchMenu />
       <MainMenu />
-      <div id="maincontent" className="EduHeader_skipLinkAnchor__1X-cl">
-        Main content
-      </div>
+      <div id="maincontent" className="EduHeader_skipLinkAnchor__1X-cl">Main content</div>
     </header>
   );
 };
