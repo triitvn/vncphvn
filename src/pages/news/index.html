@@ -1,0 +1,15 @@
+{#
+  Check: https://mozilla.github.io/nunjucks/templating.html
+  to learn more about the Nunjucks templating language.
+#}
+
+{% set title = 'Tin tức' %}
+{% extends "_page.html" %}
+
+{% block content %}
+
+  {% set title = 'Tin tức' %}
+  {% include "PageTitle/index.html" %}
+  {% include "news/newsList.html" %}
+
+{% endblock %}
