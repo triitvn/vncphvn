@@ -1,0 +1,28 @@
+.PageTitle_container {
+  align-items: flex-end;
+  display: flex;
+  margin: 0 auto;
+  padding: 44px 0;
+}
+
+.PageTitle_title {
+  background-color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  line-height: 42px;
+  padding: 17px 16px 0;
+  position: relative;
+}
+
+.PageTitle_title:after {
+  background-color: maroon;
+  content: "";
+  height: 8px;
+  left: 0;
+  position: absolute;
+  right: 56px;
+  top: 0;
+}
+
+/*# sourceMappingURL=PageHeroBanner.b5ba1f82.chunk.css.map */

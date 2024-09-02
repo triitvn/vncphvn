@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import 'CalloutBig.css';
 *,
 :after,
 :not(.fa):before {
@@ -2557,6 +2558,10 @@ caption {
   padding: 12.5px 16.5px 12.5px 15px;
 }
 
+.App__ContentContainer {
+  margin-top: 100px;
+}
+
 @media (max-width: 900px) {
   .UChicagoDarkGrey,
 .UChicagoDarkGreyRowsOnly,
@@ -2566,14 +2571,14 @@ caption {
     width: 100% !important;
     height: 100% !important;
   }
+
+  .App__ContentContainer {
+    margin-top: 46px;
+  }
 }
 .scChromeData,
 .scpm {
   display: none !important;
-}
-
-.App__ContentContainer {
-  margin-top: 100px;
 }
 
 /*# sourceMappingURL=main.719bea4e.chunk.css.map */
@@ -5594,3 +5599,31 @@ a.button {
 }
 
 /*# sourceMappingURL=VideoSpotlight.a62fdaa8.chunk.css.map */
+.PageTitle_container {
+  align-items: flex-end;
+  display: flex;
+  margin: 0 auto;
+  padding: 44px 0;
+}
+
+.PageTitle_title {
+  background-color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  line-height: 42px;
+  padding: 17px 16px 0;
+  position: relative;
+}
+
+.PageTitle_title:after {
+  background-color: maroon;
+  content: "";
+  height: 8px;
+  left: 0;
+  position: absolute;
+  right: 56px;
+  top: 0;
+}
+
+/*# sourceMappingURL=PageHeroBanner.b5ba1f82.chunk.css.map */

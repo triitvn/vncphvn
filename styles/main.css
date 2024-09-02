@@ -2557,6 +2557,10 @@ caption {
   padding: 12.5px 16.5px 12.5px 15px;
 }
 
+.App__ContentContainer {
+  margin-top: 100px;
+}
+
 @media (max-width: 900px) {
   .UChicagoDarkGrey,
 .UChicagoDarkGreyRowsOnly,
@@ -2566,14 +2570,14 @@ caption {
     width: 100% !important;
     height: 100% !important;
   }
+
+  .App__ContentContainer {
+    margin-top: 46px;
+  }
 }
 .scChromeData,
 .scpm {
   display: none !important;
-}
-
-.App__ContentContainer {
-  margin-top: 100px;
 }
 
 /*# sourceMappingURL=main.719bea4e.chunk.css.map */

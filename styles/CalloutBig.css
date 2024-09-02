@@ -1,0 +1,111 @@
+.ImageWrapper_gifContainer__3rtW- {
+  display: block;
+  position: relative;
+}
+
+.ImageWrapper_gifButton__1rkJB {
+  border: none;
+  bottom: 8px;
+  color: #fff;
+  font-size: 20px;
+  height: 20px;
+  position: absolute;
+  right: 8px;
+  z-index: 1;
+}
+
+.CalloutBig_container__F3RTT {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.CalloutBig_container__F3RTT.CalloutBig_noImage__1Py0b .CalloutBig_textContainer__1YRoT {
+  flex: 100% 1;
+  max-width: 100%;
+}
+
+.CalloutBig_imageContainer__2g0xP {
+  flex: 55% 1;
+  max-width: 55%;
+}
+
+.CalloutBig_image__3Bc2J {
+  height: 100%;
+  width: 100%;
+}
+
+.CalloutBig_textContainer__1YRoT {
+  background-color: #f3f3f3;
+  flex: 45% 1;
+  max-width: 45%;
+  padding: 16px 24px;
+  position: relative;
+}
+
+.CalloutBig_titleContainer__2kxqf {
+  align-items: center;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.CalloutBig_icon__3j6Uw,
+.CalloutBig_title__16dQ6 {
+  color: maroon;
+  padding-top: 10px;
+}
+
+.CalloutBig_icon__3j6Uw {
+  font-size: 30px;
+  line-height: 1;
+  margin-right: 12px;
+}
+
+.CalloutBig_title__16dQ6 {
+  font-size: 18px;
+  font-family: "GothamBook", "GothamBookItalic", sans-serif;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.CalloutBig_descriptionText__gah7e {
+  margin-top: 7px;
+  margin-bottom: 24px;
+}
+
+.CalloutBig_text__1NrdD {
+  color: #4d4d4d;
+  font-size: 16px;
+  font-family: "GothamBook", "GothamBookItalic", sans-serif;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.CalloutBig_linkTag__bLWHW {
+  bottom: 10px;
+  position: absolute;
+}
+
+.CalloutBig_linkTag__bLWHW .CalloutBig_link__5s0tu {
+  font-family: "GothamMedium", "GothamMediumItalic", sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 700px) {
+  .CalloutBig_imageContainer__2g0xP,
+.CalloutBig_textContainer__1YRoT {
+    flex: 100% 1;
+    max-width: 100%;
+  }
+
+  .CalloutBig_title__16dQ6 + .CalloutBig_linkTag__bLWHW {
+    position: static;
+    margin-top: 7px;
+  }
+
+  .CalloutBig_descriptionText__gah7e {
+    margin-bottom: 35px;
+  }
+}
+/*# sourceMappingURL=CalloutBig.ad8c7675.chunk.css.map */
