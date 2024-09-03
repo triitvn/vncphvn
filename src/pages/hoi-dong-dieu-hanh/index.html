@@ -1,0 +1,33 @@
+{#
+Check: https://mozilla.github.io/nunjucks/templating.html
+to learn more about the Nunjucks templating language.
+#}
+
+{% set title = 'Hội đồng điều hành' %}
+{% extends "_page.html" %}
+
+{% block content %}
+
+{% set heroBanner = {
+imgSrc: 'https://www.vbu.edu.vn/sites/default/files/public/images/danh-muc/cover_co_cau_to_chuc_tnd_4560.jpg',
+title: 'Hội đồng điều hành'
+} %}
+{% include "PageHeroBanner/index.html" %}
+<section class="single-col-wide" style="margin-bottom: 32px">
+  <section class="single-col-inner ">
+    <section class="HeadlineBar_container__35-UE">
+      <div class="HeadlineBar_heading__2XmEl">
+        <h2 class="HeadlineBar_title__3NxdA">Định hướng & phát triển</h2>
+      </div>
+      <div class="HeadlineBar_content__3sCEQ">
+        <p class="HeadlineBar_description__Kah4H">
+          Cơ cấu tổ chức của HVPGVN tại TP.HCM là Hội đồng Điều hành có thẩm quyền cao nhất, có trách nhiệm và quyền tự chủ quyết định những vấn đề quan trọng về tổ chức, nhân sự và tài chính, tài sản của HVPGVN tại TP.HCM, về mục tiêu, tổ chức hoạt động đào tạo nghiên cứu khoa học, thực tập Phật pháp và kế hoạch phát triển của HVPGVN tại TP.HCM.
+        </p>
+      </div>
+    </section>
+
+    {% include "hoi-dong-dieu-hanh/body.html" %}
+  </section>
+</section>
+
+{% endblock %}
