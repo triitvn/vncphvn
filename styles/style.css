@@ -5658,7 +5658,6 @@ a.button {
 .BasicPageBanner_container__2Ouy8,
 .BasicPageBanner_titleContainer__3H-fN {
   align-items: center;
-  display: flex;
 }
 
 .BasicPageBanner_titleContainer__3H-fN:not(:only-child) {
@@ -5714,4 +5713,15 @@ a.button {
     margin-left: 0;
   }
 }
+.BasicPageBanner_breadcrumb {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.BasicPageBanner_breadcrumb a {
+  color: #7b7b7b;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
 /*# sourceMappingURL=BasicPageBanner.fce2d71c.chunk.css.map */
