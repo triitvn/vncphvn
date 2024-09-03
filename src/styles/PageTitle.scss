@@ -1,3 +1,5 @@
+@import 'mixins.scss';
+
 .PageTitle_container {
   align-items: flex-end;
   display: flex;
@@ -12,7 +14,8 @@
   letter-spacing: -.48px;
   line-height: 42px;
   padding: 17px 16px 0;
-  position: relative
+  position: relative;
+  @include font-family-secondary;
 }
 
 .PageTitle_title:after {
