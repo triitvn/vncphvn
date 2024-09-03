@@ -1,0 +1,8 @@
+@import 'mixins';
+
+.ManagerMember__position {
+  @include font-family-secondary;
+  font-weight: 500;
+  margin-top: 12px;
+  font-size: 20px;
+}
