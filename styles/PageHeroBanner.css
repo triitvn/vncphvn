@@ -1,0 +1,121 @@
+.PageHeroBanner_container__3e80_ {
+  background-position: 50%;
+  background-size: cover;
+  height: 400px;
+}
+
+.PageHeroBanner_container__3e80_:not(:last-child),
+.PageHeroBanner_container__3e80_:not(:only-child) {
+  margin-bottom: 48px;
+}
+
+.PageHeroBanner_containerInner__1Vz_p {
+  align-items: flex-end;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1248px;
+  padding: 0 24px;
+}
+
+.PageHeroBanner_title__1rUrC {
+  background-color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  line-height: 42px;
+  margin-bottom: 56px;
+  padding: 17px 16px;
+  position: relative;
+}
+
+.PageHeroBanner_title__1rUrC:after {
+  background-color: maroon;
+  content: "";
+  height: 8px;
+  left: 0;
+  position: absolute;
+  right: 56px;
+  top: 0;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=red] {
+  background-color: maroon;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=darkred] {
+  background-color: #670a0a;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=terracotta] {
+  background-color: #a9431e;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=violet] {
+  background-color: #59315f;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=darkviolet] {
+  background-color: #41273b;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=yellow] {
+  background-color: #f3d03e;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=lake] {
+  background-color: #007396;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=darkbluegrey],
+.PageHeroBanner_title__1rUrC[data-backgroundColor=darklake] {
+  background-color: #002a3a;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=lightergrey] {
+  background-color: #f3f3f3;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=lightgrey] {
+  background-color: #d9d9d9;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=mediumgrey] {
+  background-color: #666;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=grey] {
+  background-color: #4d4d4d;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=black] {
+  background-color: #000;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=green] {
+  background-color: #789d4a;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=white] {
+  background-color: #fff;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=goldenrod] {
+  background-color: #eaaa00;
+}
+
+.PageHeroBanner_title__1rUrC[data-backgroundColor=forest] {
+  background-color: #275d38;
+}
+
+@media (max-width: 1300px) {
+  .PageHeroBanner_containerInner__1Vz_p {
+    max-width: 900px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .PageHeroBanner_container__3e80_ {
+    height: 200px;
+  }
+}
+/*# sourceMappingURL=PageHeroBanner.b5ba1f82.chunk.css.map */
